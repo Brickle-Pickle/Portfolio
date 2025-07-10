@@ -1,5 +1,4 @@
 ## 🏠 HOME (home.jsx)
-14. Mini-juego de Snake o Tetris como easter egg
 19. "Download CV" button con preview modal
 ## 🎮 GAME DEV (game_dev.jsx)
 1. Showcase de Brickle Pickle con capturas y trailers

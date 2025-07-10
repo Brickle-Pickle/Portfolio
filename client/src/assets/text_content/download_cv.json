@@ -1,0 +1,21 @@
+{
+    "title": "Descarga mi Curriculum",
+    "subtitle": "¡Conoce más sobre mi experiencia y habilidades!",
+    "description": "Full-Stack & Game Developer con 5 años de experiencia en proyectos personales y 4 meses de experiencia profesional.",
+    "button_text": "Descargar CV",
+    "button_preview": "Vista Previa",
+    "modal_title": "Vista Previa del Curriculum",
+    "close_button": "Cerrar",
+    "download_success": "¡CV descargado exitosamente!",
+    "file_info": {
+        "name": "CV_Antonio_Garcia_2025.pdf",
+        "size": "1.2 MB",
+        "pages": "2 páginas"
+    },
+    "highlights": [
+        "5 años de experiencia",
+        "Full-Stack Developer",
+        "Game Developer",
+        "IoT & Hardware"
+    ]
+}
