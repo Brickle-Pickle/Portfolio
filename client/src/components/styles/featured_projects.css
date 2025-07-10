@@ -411,13 +411,13 @@
     z-index: 1;
 }
 
-.nav-content {
+.featured-projects-section .nav-content {
     flex: 1;
     position: relative;
     z-index: 1;
 }
 
-.nav-content h4 {
+.featured-projects-section .nav-content h4 {
     font-family: var(--ff-primary);
     font-size: 1.1rem;
     font-weight: 600;
@@ -431,8 +431,8 @@
     margin: 0;
 }
 
-.nav-indicator {
-    width: 4px;
+.featured-projects-section .nav-indicator {
+    width: 4px !important;
     height: 30px;
     background: var(--clr-primary);
     border-radius: 2px;

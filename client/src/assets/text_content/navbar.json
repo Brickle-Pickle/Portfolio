@@ -1,0 +1,36 @@
+{
+    "brand": {
+        "name": "Brickle Pickle",
+        "tagline": "Full-Stack & Game Developer"
+    },
+    "navigation": [
+        {
+            "id": "home",
+            "label": "Inicio",
+            "path": "/home",
+            "icon": "FaHome"
+        },
+        {
+            "id": "about",
+            "label": "Sobre Mí",
+            "path": "/about",
+            "icon": "FaUser"
+        },
+        {
+            "id": "game-dev",
+            "label": "Game Dev",
+            "path": "/game-dev",
+            "icon": "FaGamepad"
+        },
+        {
+            "id": "iot-hardware",
+            "label": "IoT & Hardware",
+            "path": "/iot-hardware",
+            "icon": "FaMicrochip"
+        }
+    ],
+    "cta": {
+        "label": "Contacto",
+        "action": "contact"
+    }
+}

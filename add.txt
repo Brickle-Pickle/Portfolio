@@ -1,20 +1,6 @@
 ## 🏠 HOME (home.jsx)
-4. Quick stats - proyectos completados, tecnologías dominadas, líneas de código
-5. "Currently coding" - widget que muestre en qué estás trabajando ahora
-7. Call-to-action dinámico - "Hire me" con calculadora de presupuesto
-8. Testimonial rotativo de clientes/colegas
-9. GitHub activity heatmap en tiempo real
-10. "Fun fact" aleatorio sobre ti cada vez que se carga
-11. Modo oscuro/claro con transición suave
-12. Scroll parallax con elementos flotantes
-13. Typing animation presentando tu stack tecnológico
 14. Mini-juego de Snake o Tetris como easter egg
-15. Social links con hover effects únicos
-16. "Available for work" status indicator
-17. Recent blog posts preview (si decides añadir blog)
-18. Tech stack carousel con logos animados
 19. "Download CV" button con preview modal
-20. Contact form rápido integrado
 ## 🎮 GAME DEV (game_dev.jsx)
 1. Showcase de Brickle Pickle con capturas y trailers
 2. Game engine comparison - Unity vs otros que uses

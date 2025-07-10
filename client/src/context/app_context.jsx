@@ -1,5 +1,5 @@
 import { createContext, useContext, useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const AppContext = createContext();
 
@@ -13,7 +13,9 @@ export const useAppContext = () => {
 
 export const AppContextProvider = ({ children }) => {
     const navigate = useNavigate();
+    const location = useLocation();
     const [isLoading, setIsLoading] = useState(true);
+    const [hasInitialized, setHasInitialized] = useState(false);
 
     const value = {
         isLoading,
@@ -22,13 +24,23 @@ export const AppContextProvider = ({ children }) => {
     };
 
     useEffect(() => {
-        const timer = setTimeout(() => {
-            setIsLoading(false);
-            navigate('/home');
-        }, 1000);
+        // Only run initial loading on first mount
+        if (!hasInitialized) {
+            const timer = setTimeout(() => {
+                setIsLoading(false);
+                setHasInitialized(true);
+                // Only navigate to home if we're on the root path
+                if (location.pathname === '/') {
+                    navigate('/home');
+                }
+            }, 1000);
 
-        return () => clearTimeout(timer);
-    }, [navigate]); // Add navigate to dependencies
+            return () => clearTimeout(timer);
+        } else {
+            // For subsequent navigations, don't show loading
+            setIsLoading(false);
+        }
+    }, [navigate, location.pathname, hasInitialized]);
 
     return (
         <AppContext.Provider value={value}>
