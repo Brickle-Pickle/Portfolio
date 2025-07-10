@@ -107,5 +107,75 @@
             "experience": "5 años",
             "commits": "1000+"
         }
+    },
+    "featured_projects": {
+        "title": "Proyectos Destacados",
+        "subtitle": "Experiencias digitales que definen mi trayectoria",
+        "projects": [
+            {
+                "id": "keypress-games",
+                "title": "KeyPress Games",
+                "subtitle": "eCommerce Platform",
+                "description": "Plataforma completa de eCommerce especializada en videojuegos con sistema de pagos, gestión de inventario y panel administrativo.",
+                "image": "/projects/keypress-games.jpg",
+                "url": "https://keypressgamesv1.vercel.app",
+                "github": "https://github.com/Brickle-Pickle/keypress-games",
+                "technologies": ["React", "Node.js", "Express", "MongoDB"],
+                "category": "Full-Stack",
+                "status": "Live",
+                "featured": true,
+                "year": "2024",
+                "highlights": [
+                    "Sistema de autenticación completo",
+                    "Integración de pagos",
+                    "Panel administrativo",
+                    "Responsive design"
+                ]
+            },
+            {
+                "id": "brickle-pickle-games",
+                "title": "Brickle Pickle Games",
+                "subtitle": "Indie Game Studio",
+                "description": "Estudio independiente de videojuegos con múltiples títulos publicados. Desarrollo completo desde concept art hasta distribución.",
+                "image": "/projects/brickle-pickle.jpg",
+                "url": "https://brickle-pickle.itch.io/",
+                "github": "https://github.com/Brickle-Pickle",
+                "technologies": ["C#", "Unity", "Game Design", "Pixel Art"],
+                "category": "Game Development",
+                "status": "Active",
+                "featured": true,
+                "year": "2020-2024",
+                "highlights": [
+                    "5+ juegos publicados",
+                    "Diseño de mecánicas únicas",
+                    "Arte pixel personalizado",
+                    "Comunidad activa"
+                ]
+            },
+            {
+                "id": "mudanzas-anderson",
+                "title": "Mudanzas Anderson",
+                "subtitle": "Business Management System",
+                "description": "Sistema integral de gestión empresarial con reservas online, CRM, panel administrativo y aplicación móvil para equipos de trabajo.",
+                "image": "/projects/mudanzas-anderson.jpg",
+                "url": "https://mudanzasanderson.com",
+                "app_url": "https://app.mudanzasanderson.com",
+                "technologies": ["React", "Node.js", "Express", "SQL"],
+                "category": "Enterprise",
+                "status": "Production",
+                "featured": true,
+                "year": "2024",
+                "highlights": [
+                    "Sistema de reservas online",
+                    "CRM integrado",
+                    "App móvil para empleados",
+                    "Dashboard analítico"
+                ]
+            }
+        ],
+        "cta": {
+            "text": "Ver Todos los Proyectos",
+            "github_text": "Explorar en GitHub"
+        }
     }
 }
