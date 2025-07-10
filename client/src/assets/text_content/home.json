@@ -22,5 +22,90 @@
             "itch": "https://brickle-pickle.itch.io/",
             "keypress": "https://keypressgamesv1.vercel.app"
         }
+    },
+    "start_date": "20/09/2020",
+    "quick_stats": {
+        "title": "Stack Tecnológico",
+        "subtitle": "Tecnologías que domino profesionalmente",
+        "categories": {
+            "frontend": {
+                "name": "Frontend",
+                "icon": "FaCode",
+                "color": "#61dafb",
+                "technologies": [
+                    { "name": "JavaScript", "icon": "SiJavascript", "level": 100 },
+                    { "name": "React", "icon": "SiReact", "level": 100 },
+                    { "name": "HTML5", "icon": "SiHtml5", "level": 100 },
+                    { "name": "CSS3", "icon": "SiCss3", "level": 100 },
+                    { "name": "Tailwind CSS", "icon": "SiTailwindcss", "level": 100 },
+                    { "name": "Vite", "icon": "SiVite", "level": 100 }
+                ]
+            },
+            "backend": {
+                "name": "Backend",
+                "icon": "FaServer",
+                "color": "#68d391",
+                "technologies": [
+                    { "name": "Node.js", "icon": "SiNodedotjs", "level": 100 },
+                    { "name": "Express.js", "icon": "SiExpress", "level": 75 },
+                    { "name": "Python", "icon": "SiPython", "level": 75 }
+                ]
+            },
+            "mobile": {
+                "name": "Mobile",
+                "icon": "FaMobile",
+                "color": "#a78bfa",
+                "technologies": [
+                    { "name": "Kotlin", "icon": "SiKotlin", "level": 70 }
+                ]
+            },
+            "gamedev": {
+                "name": "Game Dev",
+                "icon": "FaGamepad",
+                "color": "#f687b3",
+                "technologies": [
+                    { "name": "C#", "icon": "TbBrandCSharp", "level": 60 },
+                    { "name": "Unity", "icon": "SiUnity", "level": 80 },
+                    { "name": "Lua", "icon": "SiLua", "level": 40 },
+                    { "name": "C", "icon": "SiC", "level": 100 }
+                ]
+            },
+            "database": {
+                "name": "Databases",
+                "icon": "FaDatabase",
+                "color": "#fbb6ce",
+                "technologies": [
+                    { "name": "SQL", "icon": "SiMysql", "level": 100 },
+                    { "name": "MariaDB", "icon": "SiMariadb", "level": 100 },
+                    { "name": "MongoDB", "icon": "SiMongodb", "level": 75 },
+                    { "name": "MySQL", "icon": "SiMysql", "level": 60 }
+                ]
+            },
+            "iot": {
+                "name": "IoT & Hardware",
+                "icon": "FaMicrochip",
+                "color": "#fed7d7",
+                "technologies": [
+                    { "name": "MicroPython", "icon": "SiMicropython", "level": 75 },
+                    { "name": "Arduino", "icon": "SiArduino", "level": 60 },
+                    { "name": "Raspberry Pi", "icon": "SiRaspberrypi", "level": 60 }
+                ]
+            },
+            "others": {
+                "name": "Otros",
+                "icon": "FaTools",
+                "color": "#bee3f8",
+                "technologies": [
+                    { "name": "Java", "icon": "FaJava", "level": 100 },
+                    { "name": "Git", "icon": "SiGit", "level": 100 }
+                ]
+            }
+        },
+        "stats": {
+            "projects": "15+",
+            "technologies": "20+",
+            "experience": "5 años",
+            "commits": "1000+"
+        }
     }
 }

@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Noto+Sans+Mono:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Noto+Sans+Mono:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tourney:ital,wght@0,100..900;1,100..900&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
 
 :root {
     /* Typography */
     --ff-primary: 'Nunito', sans-serif;
     --ff-secondary: 'Yrsa', serif;
     --ff-heading: 'Tourney', cursive;
+    --ff-mono: 'JetBrains Mono', 'Noto Sans Mono', monospace;
     
     /* Layout */
     --border-radius: 8px;
+    --border-radius-lg: 16px;
     --shadow-hover: 0 8px 25px rgba(0, 0, 0, 0.15);
+    --shadow-counter: 0 10px 30px rgba(0, 0, 0, 0.1);
+    --text-shadow-glow: 0 0 10px rgba(32, 45, 101, 0.3);
 }
 
 @media (prefers-color-scheme: light) {
@@ -17,6 +22,7 @@
         --clr-primary: #202d65;
         --clr-primary-light: #4b3d87;
         --clr-primary-dark: #1a2555;
+        --clr-primary-alpha: rgba(32, 45, 101, 0.1);
         --clr-bg: #f3f4f6;
         --clr-bg-light: #fff;
         --clr-text: #1f2937;
@@ -26,6 +32,16 @@
         --clr-grid: #e5e7eb;
         --clr-card-bg: #ffffff;
         --clr-border: #e5e7eb;
+        --clr-counter-bg: #ffffff;
+        --clr-counter-icon-bg: #f8fafc;
+        --clr-counter-gradient: linear-gradient(135deg, #202d65, #4b3d87);
+        --clr-counter-pattern: radial-gradient(circle at 25% 25%, #202d65 2px, transparent 2px);
+        
+        /* Quick Stats specific colors */
+        --clr-stats-icon-bg: #f8fafc;
+        --clr-stats-gradient: linear-gradient(135deg, #202d65, #4b3d87, #8b5cf6);
+        --clr-stats-pattern: radial-gradient(circle at 20% 20%, #202d65 1px, transparent 1px),
+                            radial-gradient(circle at 80% 80%, #4b3d87 1px, transparent 1px);
     }
 }
 
@@ -34,6 +50,7 @@
         --clr-primary: #a4bae6;
         --clr-primary-light: #90cced;
         --clr-primary-dark: #8da4d3;
+        --clr-primary-alpha: rgba(164, 186, 230, 0.1);
         --clr-bg: #213547;
         --clr-bg-light: #444;
         --clr-text: #f9fafb;
@@ -43,6 +60,17 @@
         --clr-grid: #374151;
         --clr-card-bg: #374151;
         --clr-border: #4b5563;
+        --clr-counter-bg: #2d3748;
+        --clr-counter-icon-bg: #1a202c;
+        --clr-counter-gradient: linear-gradient(135deg, #a4bae6, #90cced);
+        --clr-counter-pattern: radial-gradient(circle at 25% 25%, #a4bae6 2px, transparent 2px);
+        --text-shadow-glow: 0 0 10px rgba(164, 186, 230, 0.3);
+        
+        /* Quick Stats specific colors */
+        --clr-stats-icon-bg: #1a202c;
+        --clr-stats-gradient: linear-gradient(135deg, #a4bae6, #90cced, #a78bfa);
+        --clr-stats-pattern: radial-gradient(circle at 20% 20%, #a4bae6 1px, transparent 1px),
+                            radial-gradient(circle at 80% 80%, #90cced 1px, transparent 1px);
     }
 }
 

@@ -1,0 +1,91 @@
+## 🏠 HOME (home.jsx)
+4. Quick stats - proyectos completados, tecnologías dominadas, líneas de código
+5. "Currently coding" - widget que muestre en qué estás trabajando ahora
+7. Call-to-action dinámico - "Hire me" con calculadora de presupuesto
+8. Testimonial rotativo de clientes/colegas
+9. GitHub activity heatmap en tiempo real
+10. "Fun fact" aleatorio sobre ti cada vez que se carga
+11. Modo oscuro/claro con transición suave
+12. Scroll parallax con elementos flotantes
+13. Typing animation presentando tu stack tecnológico
+14. Mini-juego de Snake o Tetris como easter egg
+15. Social links con hover effects únicos
+16. "Available for work" status indicator
+17. Recent blog posts preview (si decides añadir blog)
+18. Tech stack carousel con logos animados
+19. "Download CV" button con preview modal
+20. Contact form rápido integrado
+## 🎮 GAME DEV (game_dev.jsx)
+1. Showcase de Brickle Pickle con capturas y trailers
+2. Game engine comparison - Unity vs otros que uses
+3. "Making of" videos de tus juegos
+4. Playable demos embebidos directamente
+5. Game design documents descargables
+6. Pixel art gallery de assets creados por ti
+7. Sound design showcase con reproductor de audio
+8. Level design timelapse videos
+9. Code snippets de mecánicas interesantes
+10. Game jam participations con resultados
+11. "From idea to game" flowchart interactivo
+12. Player feedback y reviews de tus juegos
+13. Game analytics dashboard (downloads, ratings)
+14. Future projects roadmap
+15. Collaboration opportunities para otros devs
+16. Game dev tools que recomiendas
+17. Learning resources para aspirantes a game devs
+18. Behind the scenes fotos del proceso creativo
+19. Game dev challenges que has superado
+20. "Play my games" section con links directos
+## 📱 ABOUT (about.jsx)
+1. Timeline interactiva de tu carrera (5 años)
+2. "Day in my life" como desarrollador
+3. Soft skills con ejemplos concretos
+4. Hobbies section - Arduino, circuitos, etc.
+5. "Why Brickle Pickle?" - historia del nombre
+6. Personality test results (16personalities, etc.)
+7. Favorite tools y setup de desarrollo
+8. Learning philosophy y cómo te mantienes actualizado
+9. Work preferences - remoto, horarios, metodologías
+10. "Ask me about" topics que dominas
+11. Photo gallery personal/profesional
+12. Values and principles como desarrollador
+13. "Fun facts" sobre ti
+14. Language skills con niveles
+15. Education journey - FP, cursos, autodidacta
+16. Mentorship - si ofreces o buscas mentores
+17. Community involvement aunque no participes activamente
+18. "What drives me" motivaciones personales
+19. Future goals a corto y largo plazo
+20. "Coffee chat" invitation para networking
+## 🔧 IOT & HARDWARE (iot_hardware.jsx)
+1. Arduino projects gallery con fotos y código
+2. Raspberry Pi setup y proyectos
+3. Circuit diagrams interactivos
+4. MicroPython code examples
+5. Sensor data visualizations en tiempo real
+6. "Build along" tutorials paso a paso
+7. Components library que recomiendas
+8. 3D printed cases para tus proyectos
+9. IoT security best practices
+10. Home automation projects
+11. Wearable tech experiments
+12. Robot projects si tienes alguno
+13. Environmental monitoring systems
+14. Smart garden o proyectos similares
+15. Hardware troubleshooting tips
+16. Cost breakdown de proyectos
+17. "From prototype to product" journey
+18. Collaboration with makers community
+19. Hardware meets software integration examples
+20. "Next project ideas" que quieres desarrollar
+## 💡 Ideas Adicionales Transversales
+- Search functionality global en todas las páginas
+- Tags system para filtrar contenido
+- Dark/Light mode consistente
+- Responsive design perfecto en móviles
+- Loading animations únicas para cada sección
+- Breadcrumb navigation estilo terminal
+- Share buttons para proyectos específicos
+- Print-friendly versions
+- Accessibility features completas
+- Performance metrics visibles
