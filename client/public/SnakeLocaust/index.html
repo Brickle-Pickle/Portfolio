@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes">
+    <title>SnakeLocaust | Portfolio Game</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+  </head>
+  <body>
+    <!-- Game container with portfolio styling -->
+    <div class="game-wrapper">
+      <div class="game-header">
+        <div class="game-title">
+          <span class="game-icon">🐍</span>
+          <h1>SnakeLocaust</h1>
+          <span class="game-version">v1.1.0</span>
+        </div>
+        <div class="game-controls">
+          <button id="unity-fullscreen-button" class="control-btn" title="Pantalla completa">
+            <span>⛶</span>
+          </button>
+        </div>
+      </div>
+      
+      <div id="unity-container" class="unity-desktop">
+        <canvas id="unity-canvas" width="960" height="600" tabindex="-1"></canvas>
+        
+        <!-- Modern loading overlay -->
+        <div id="unity-loading-bar" class="loading-overlay">
+          <div class="loading-content">
+            <div class="loading-logo">
+              <div class="logo-icon">🎮</div>
+              <div class="loading-spinner"></div>
+            </div>
+            <h2 class="loading-title">Cargando SnakeLocaust</h2>
+            <div class="progress-container">
+              <div class="progress-bar">
+                <div id="unity-progress-bar-full" class="progress-fill"></div>
+              </div>
+              <span class="progress-text">0%</span>
+            </div>
+            <p class="loading-subtitle">Preparando la experiencia de juego...</p>
+          </div>
+        </div>
+        
+        <!-- Error/Warning messages -->
+        <div id="unity-warning" class="warning-overlay"></div>
+      </div>
+      
+      <!-- Game info footer -->
+      <div class="game-footer">
+        <div class="game-info">
+          <span class="developer">Desarrollado por <strong>Brickle Pickle</strong></span>
+          <span class="tech-stack">Unity WebGL</span>
+        </div>
+        <div class="game-stats">
+          <div class="stat-item">
+            <span class="stat-label">Género:</span>
+            <span class="stat-value">Arcade</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-label">Plataforma:</span>
+            <span class="stat-value">Web</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var canvas = document.querySelector("#unity-canvas");
+      var progressText = document.querySelector(".progress-text");
+
+      // Modern banner system with portfolio styling
+      function unityShowBanner(msg, type) {
+        var warningBanner = document.querySelector("#unity-warning");
+        
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'flex' : 'none';
+        }
+        
+        var div = document.createElement('div');
+        div.className = 'warning-message';
+        div.innerHTML = `
+          <div class="warning-icon">${type === 'error' ? '❌' : '⚠️'}</div>
+          <div class="warning-text">${msg}</div>
+          <button class="warning-close" onclick="this.parentElement.remove(); updateBannerVisibility();">✕</button>
+        `;
+        
+        if (type === 'error') {
+          div.classList.add('error');
+        } else if (type === 'warning') {
+          div.classList.add('warning');
+          setTimeout(function() {
+            if (div.parentElement) {
+              warningBanner.removeChild(div);
+              updateBannerVisibility();
+            }
+          }, 5000);
+        }
+        
+        warningBanner.appendChild(div);
+        updateBannerVisibility();
+      }
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/SnakeLocaust.loader.js";
+      var config = {
+        arguments: [],
+        dataUrl: buildUrl + "/SnakeLocaust.data.br",
+        frameworkUrl: buildUrl + "/SnakeLocaust.framework.js.br",
+        codeUrl: buildUrl + "/SnakeLocaust.wasm.br",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Brickle Pickle",
+        productName: "SnakeLocaust",
+        productVersion: "1.1.0",
+        showBanner: unityShowBanner,
+      };
+
+      // Responsive design handling
+      function setupResponsiveDesign() {
+        if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+          document.querySelector("#unity-container").className = "unity-mobile";
+          canvas.className = "unity-mobile";
+          document.querySelector(".game-wrapper").classList.add('mobile');
+        } else {
+          canvas.style.width = "960px";
+          canvas.style.height = "600px";
+        }
+      }
+
+      setupResponsiveDesign();
+      document.querySelector("#unity-loading-bar").style.display = "flex";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          const percentage = Math.round(100 * progress);
+          document.querySelector("#unity-progress-bar-full").style.width = percentage + "%";
+          progressText.textContent = percentage + "%";
+        }).then((unityInstance) => {
+          document.querySelector("#unity-loading-bar").style.display = "none";
+          document.querySelector("#unity-fullscreen-button").onclick = () => {
+            unityInstance.SetFullscreen(1);
+          };
+        }).catch((message) => {
+          unityShowBanner(message, 'error');
+        });
+      };
+
+      document.body.appendChild(script);
+    </script>
+  </body>
+</html>

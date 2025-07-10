@@ -107,8 +107,7 @@ const GamePreview = () => {
                             <>
                                 <iframe
                                     ref={iframeRef}
-                                    src="/src/assets/SnakeLocaust/index.html"
-                                    title={game_preview.title}
+                                    src="/SnakeLocaust/index.html"
                                     className="game-iframe"
                                     allowFullScreen
                                 />
