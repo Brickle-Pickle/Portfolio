@@ -177,5 +177,28 @@
             "text": "Ver Todos los Proyectos",
             "github_text": "Explorar en GitHub"
         }
+    },
+    "github_activity": {
+        "title": "Actividad en GitHub",
+        "subtitle": "Contribuciones y proyectos recientes",
+        "username": "Brickle-Pickle",
+        "stats_labels": {
+            "repositories": "Repositorios",
+            "commits": "Commits",
+            "contributions": "Contribuciones",
+            "streak": "Racha actual"
+        },
+        "activity_types": {
+            "PushEvent": "📝 Push",
+            "CreateEvent": "🆕 Creado",
+            "IssuesEvent": "🐛 Issue",
+            "PullRequestEvent": "🔄 Pull Request",
+            "WatchEvent": "⭐ Starred",
+            "ForkEvent": "🍴 Fork"
+        },
+        "loading_text": "Cargando actividad...",
+        "error_text": "Error al cargar la actividad",
+        "no_activity_text": "No hay actividad reciente",
+        "view_profile_text": "Ver Perfil Completo"
     }
 }
