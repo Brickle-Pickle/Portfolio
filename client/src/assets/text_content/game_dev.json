@@ -1,0 +1,96 @@
+{
+    "featured_games": {
+        "title": "Mis Mejores Juegos",
+        "subtitle": "Experiencias interactivas creadas con pasión",
+        "description": "Explora mi colección de videojuegos desarrollados bajo la marca Brickle Pickle. Cada proyecto representa una aventura única en el mundo del desarrollo indie.",
+        "games": [
+            {
+                "id": "freezing-times",
+                "title": "Frexing Timmez",
+                "subtitle": "Aventura Épica",
+                "description": "Una experiencia inmersiva que te transporta a un mundo donde si el tiempo se acaba, tu cuerpo se congela. Explora paisajes únicos y descubre los secretos ocultos en cada nivel.",
+                "genre": "Aventura / Puzzle",
+                "status": "Disponible",
+                "year": "2023",
+                "engine": "Unity",
+                "platforms": ["PC", "Web"],
+                "features": [
+                    "Mecánicas de dibujo únicas",
+                    "Arte pixel detallado",
+                    "Banda sonora original",
+                    "Múltiples niveles desafiantes"
+                ],
+                "images": [
+                    "/src/assets/images/FreezingTimes/Cap1.png",
+                    "/src/assets/images/FreezingTimes/Cap2.png",
+                    "/src/assets/images/FreezingTimes/Cap3.png"
+                ],
+                "mainImage": "/src/assets/images/FreezingTimes/Cap1.png",
+                "downloadUrl": "https://brickle-pickle.itch.io/frexing-timmez",
+                "featured": true
+            },
+            {
+                "id": "circle-void",
+                "title": "Circle Void",
+                "subtitle": "Acción Minimalista",
+                "description": "Un juego de acción minimalista donde la simplicidad se encuentra con la complejidad. Navega a través del vacío circular y supera desafíos únicos.",
+                "genre": "Acción / Arcade",
+                "status": "Disponible",
+                "year": "2022",
+                "engine": "Unity",
+                "platforms": ["PC", "Web"],
+                "features": [
+                    "Diseño minimalista elegante",
+                    "Controles intuitivos",
+                    "Física realista",
+                    "Desafíos progresivos"
+                ],
+                "images": [
+                    "/src/assets/images/CircleVoid/CircleVoid_1.png",
+                    "/src/assets/images/CircleVoid/CircleVoid_2.png"
+                ],
+                "mainImage": "/src/assets/images/CircleVoid/CircleVoid_1.png",
+                "downloadUrl": "https://brickle-pickle.itch.io/circlevoid",
+                "featured": true
+            }
+        ],
+        "cta": {
+            "primary": "Ver Todos los Juegos",
+            "secondary": "Sígueme en Itch.io"
+        }
+    },
+    "game_preview": {
+        "title": "SnakeLocaust",
+        "subtitle": "Demo Jugable",
+        "description": "Una reinvención moderna del clásico Snake con mecánicas innovadoras y un estilo visual único. Experimenta con esta demo exclusiva desarrollada en Unity.",
+        "genre": "Arcade / Acción",
+        "status": "Demo",
+        "year": "2024",
+        "engine": "Unity",
+        "platforms": ["Web"],
+        "features": [
+            "Mecánicas de Snake renovadas",
+            "Controles fluidos y responsivos",
+            "Efectos visuales modernos",
+            "Gameplay adictivo"
+        ],
+        "controls": {
+            "title": "Controles",
+            "instructions": [
+                "Flechas del teclado para mover",
+                "Espacio para pausar",
+                "R para reiniciar"
+            ]
+        },
+        "gameInfo": {
+            "objective": "Recoge elementos para crecer mientras evitas chocar contigo mismo",
+            "difficulty": "Progresiva",
+            "bestScore": "¡Intenta superar tu récord personal!"
+        },
+        "cta": {
+            "play": "Jugar Ahora",
+            "fullscreen": "Pantalla Completa",
+            "restart": "Reiniciar Juego"
+        }
+    }
+}

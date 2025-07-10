@@ -1,9 +1,4 @@
-## 🏠 HOME (home.jsx)
-19. "Download CV" button con preview modal
 ## 🎮 GAME DEV (game_dev.jsx)
-1. Showcase de Brickle Pickle con capturas y trailers
-2. Game engine comparison - Unity vs otros que uses
-3. "Making of" videos de tus juegos
 4. Playable demos embebidos directamente
 5. Game design documents descargables
 6. Pixel art gallery de assets creados por ti
@@ -21,27 +16,7 @@
 18. Behind the scenes fotos del proceso creativo
 19. Game dev challenges que has superado
 20. "Play my games" section con links directos
-## 📱 ABOUT (about.jsx)
-1. Timeline interactiva de tu carrera (5 años)
-2. "Day in my life" como desarrollador
-3. Soft skills con ejemplos concretos
-4. Hobbies section - Arduino, circuitos, etc.
-5. "Why Brickle Pickle?" - historia del nombre
-6. Personality test results (16personalities, etc.)
-7. Favorite tools y setup de desarrollo
-8. Learning philosophy y cómo te mantienes actualizado
-9. Work preferences - remoto, horarios, metodologías
-10. "Ask me about" topics que dominas
-11. Photo gallery personal/profesional
-12. Values and principles como desarrollador
-13. "Fun facts" sobre ti
-14. Language skills con niveles
-15. Education journey - FP, cursos, autodidacta
-16. Mentorship - si ofreces o buscas mentores
-17. Community involvement aunque no participes activamente
-18. "What drives me" motivaciones personales
-19. Future goals a corto y largo plazo
-20. "Coffee chat" invitation para networking
+
 ## 🔧 IOT & HARDWARE (iot_hardware.jsx)
 1. Arduino projects gallery con fotos y código
 2. Raspberry Pi setup y proyectos
@@ -63,6 +38,7 @@
 18. Collaboration with makers community
 19. Hardware meets software integration examples
 20. "Next project ideas" que quieres desarrollar
+
 ## 💡 Ideas Adicionales Transversales
 - Search functionality global en todas las páginas
 - Tags system para filtrar contenido

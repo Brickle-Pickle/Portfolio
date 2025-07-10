@@ -11,12 +11,6 @@
             "icon": "FaHome"
         },
         {
-            "id": "about",
-            "label": "Sobre Mí",
-            "path": "/about",
-            "icon": "FaUser"
-        },
-        {
             "id": "game-dev",
             "label": "Game Dev",
             "path": "/game-dev",

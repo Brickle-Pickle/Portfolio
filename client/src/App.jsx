@@ -4,7 +4,7 @@ import { useAppContext } from './context/app_context';
 import Loading from './components/loading';
 import Navbar from './components/navbar';
 import Home from './pages/home';
-import About from './pages/about';
+import GameDev from './pages/game_dev';
 
 function App() {
     return (
@@ -15,7 +15,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} /> {/* Add route for /home */}
-                <Route path="/about" element={<About />} />
+                <Route path="/game-dev" element={<GameDev />} />
             </Routes>
         </>
     )

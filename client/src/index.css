@@ -54,6 +54,23 @@
         --clr-stats-gradient: linear-gradient(135deg, #202d65, #4b3d87, #8b5cf6);
         --clr-stats-pattern: radial-gradient(circle at 20% 20%, #202d65 1px, transparent 1px),
                             radial-gradient(circle at 80% 80%, #4b3d87 1px, transparent 1px);
+
+        /* Game Preview specific colors */
+        --clr-game-preview-pattern: radial-gradient(circle at 30% 30%, #202d65 1px, transparent 1px),
+                                   radial-gradient(circle at 70% 70%, #4b3d87 1px, transparent 1px);
+        --clr-game-preview-header-bg: rgba(255, 255, 255, 0.8);
+        --clr-game-preview-icon-bg: #f8fafc;
+        --clr-game-preview-meta-bg: rgba(255, 255, 255, 0.6);
+        --clr-game-preview-frame-bg: #ffffff;
+        --clr-game-preview-placeholder-bg: linear-gradient(135deg, #f8fafc, #e2e8f0);
+        --clr-game-preview-bg-pattern: radial-gradient(circle at 25% 25%, #202d65 2px, transparent 2px),
+                                      radial-gradient(circle at 75% 75%, #4b3d87 2px, transparent 2px);
+        --clr-game-preview-controls-bg: rgba(255, 255, 255, 0.9);
+        --clr-game-preview-sidebar-bg: #ffffff;
+        --clr-game-preview-tabs-bg: #f8fafc;
+        --clr-game-preview-tab-hover: rgba(32, 45, 101, 0.1);
+        --clr-game-preview-stat-bg: #ffffff;
+        --clr-game-preview-shadow: 0 20px 40px rgba(32, 45, 101, 0.1);
     }
 }
 
@@ -79,10 +96,21 @@
         --text-shadow-glow: 0 0 10px rgba(164, 186, 230, 0.3);
         
         /* Quick Stats specific colors */
-        --clr-stats-icon-bg: #1a202c;
-        --clr-stats-gradient: linear-gradient(135deg, #a4bae6, #90cced, #a78bfa);
-        --clr-stats-pattern: radial-gradient(circle at 20% 20%, #a4bae6 1px, transparent 1px),
-                            radial-gradient(circle at 80% 80%, #90cced 1px, transparent 1px);
+        /* En el :root de @media (prefers-color-scheme: light) */
+        --clr-games-icon-bg: #f8fafc;
+        --clr-games-gradient: linear-gradient(135deg, #202d65, #4b3d87, #8b5cf6);
+        --clr-games-pattern: radial-gradient(circle at 20% 20%, #202d65 1px, transparent 1px),
+                        radial-gradient(circle at 80% 80%, #4b3d87 1px, transparent 1px);
+        --clr-games-shadow: 0 20px 40px rgba(32, 45, 101, 0.15);
+        --clr-games-detail-bg: #f8fafc;
+        
+        /* En el :root de @media (prefers-color-scheme: dark) */
+        --clr-games-icon-bg: #1a202c;
+        --clr-games-gradient: linear-gradient(135deg, #a4bae6, #90cced, #a78bfa);
+        --clr-games-pattern: radial-gradient(circle at 20% 20%, #a4bae6 1px, transparent 1px),
+                        radial-gradient(circle at 80% 80%, #90cced 1px, transparent 1px);
+        --clr-games-shadow: 0 20px 40px rgba(164, 186, 230, 0.15);
+        --clr-games-detail-bg: #2d3748;
     
         /* Navbar specific colors */
         --navbar-height: 80px;
@@ -95,6 +123,23 @@
         --navbar-shadow-scrolled: 0 8px 30px rgba(0, 0, 0, 0.3);
         --mobile-nav-bg: rgba(33, 53, 71, 0.95);
         --mobile-nav-backdrop: blur(25px);
+
+        /* Game Preview specific colors */
+        --clr-game-preview-pattern: radial-gradient(circle at 30% 30%, #a4bae6 1px, transparent 1px),
+                                   radial-gradient(circle at 70% 70%, #90cced 1px, transparent 1px);
+        --clr-game-preview-header-bg: rgba(45, 55, 72, 0.8);
+        --clr-game-preview-icon-bg: #1a202c;
+        --clr-game-preview-meta-bg: rgba(45, 55, 72, 0.6);
+        --clr-game-preview-frame-bg: #2d3748;
+        --clr-game-preview-placeholder-bg: linear-gradient(135deg, #2d3748, #1a202c);
+        --clr-game-preview-bg-pattern: radial-gradient(circle at 25% 25%, #a4bae6 2px, transparent 2px),
+                                      radial-gradient(circle at 75% 75%, #90cced 2px, transparent 2px);
+        --clr-game-preview-controls-bg: rgba(45, 55, 72, 0.9);
+        --clr-game-preview-sidebar-bg: #2d3748;
+        --clr-game-preview-tabs-bg: #1a202c;
+        --clr-game-preview-tab-hover: rgba(164, 186, 230, 0.1);
+        --clr-game-preview-stat-bg: #2d3748;
+        --clr-game-preview-shadow: 0 20px 40px rgba(164, 186, 230, 0.1);
     }
 }
 
