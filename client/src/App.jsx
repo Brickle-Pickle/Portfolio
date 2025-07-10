@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom'; // Remove BrowserRouter import
 import { useAppContext } from './context/app_context';
 import Loading from './components/loading';
 import Home from './pages/home';
@@ -9,11 +9,10 @@ function App() {
         <>
             <Loading />
             
-            <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                </Routes>
-            </BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/home" element={<Home />} /> {/* Add route for /home */}
+            </Routes>
         </>
     )
 }

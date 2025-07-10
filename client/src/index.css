@@ -2,16 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100..900&family=Noto+Sans+Mono:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Tourney:ital,wght@0,100..900;1,100..900&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
 
 :root {
+    /* Typography */
     --ff-primary: 'Nunito', sans-serif;
     --ff-secondary: 'Yrsa', serif;
+    --ff-heading: 'Tourney', cursive;
+    
+    /* Layout */
+    --border-radius: 8px;
+    --shadow-hover: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 @media (prefers-color-scheme: light) {
     :root {
         --clr-primary: #202d65;
         --clr-primary-light: #4b3d87;
+        --clr-primary-dark: #1a2555;
         --clr-bg: #f3f4f6;
         --clr-bg-light: #fff;
+        --clr-text: #1f2937;
+        --clr-text-light: #6b7280;
+        --clr-accent: #8b5cf6;
+        --clr-success: #10b981;
+        --clr-grid: #e5e7eb;
+        --clr-card-bg: #ffffff;
+        --clr-border: #e5e7eb;
     }
 }
 
@@ -19,7 +33,26 @@
     :root {
         --clr-primary: #a4bae6;
         --clr-primary-light: #90cced;
+        --clr-primary-dark: #8da4d3;
         --clr-bg: #213547;
         --clr-bg-light: #444;
+        --clr-text: #f9fafb;
+        --clr-text-light: #d1d5db;
+        --clr-accent: #a78bfa;
+        --clr-success: #34d399;
+        --clr-grid: #374151;
+        --clr-card-bg: #374151;
+        --clr-border: #4b5563;
     }
+}
+
+@media (max-width: 900px) {
+    .not-responsive {
+        display: none !important;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }

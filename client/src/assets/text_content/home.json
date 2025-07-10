@@ -1,0 +1,26 @@
+{
+    "hero": {
+        "greeting": "¡Hola! Soy",
+        "name": "Antonio G.",
+        "brand": "Brickle Pickle",
+        "title": "Full-Stack Developer & Game Developer",
+        "location": "Madrid, España",
+        "description": "Desarrollador Full-Stack con pasión por la creación de videojuegos. Con 5 años de experiencia en proyectos personales y 4 meses de experiencia profesional, especializado en React, Node.js, C# y Unity.",
+        "highlights": [
+            "React & Node.js",
+            "Game Development",
+            "C# & Unity",
+            "IoT & Hardware"
+        ],
+        "status": "Disponible para nuevos proyectos",
+        "cta": {
+            "primary": "Ver Proyectos",
+            "secondary": "Contactar"
+        },
+        "links": {
+            "github": "https://github.com/Brickle-Pickle",
+            "itch": "https://brickle-pickle.itch.io/",
+            "keypress": "https://keypressgamesv1.vercel.app"
+        }
+    }
+}
