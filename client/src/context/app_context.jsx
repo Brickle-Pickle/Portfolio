@@ -16,11 +16,14 @@ export const AppContextProvider = ({ children }) => {
     const location = useLocation();
     const [isLoading, setIsLoading] = useState(true);
     const [hasInitialized, setHasInitialized] = useState(false);
+    const [showContact, setShowContact] = useState(false);
 
     const value = {
         isLoading,
         setIsLoading,
         navigate,
+        showContact,
+        setShowContact,
     };
 
     useEffect(() => {

@@ -1,0 +1,69 @@
+{
+    "contact_modal": {
+        "title": "¡Hablemos!",
+        "subtitle": "Conectemos y creemos algo increíble juntos",
+        "description": "¿Tienes un proyecto en mente? ¿Necesitas un desarrollador Full-Stack o Game Developer? ¡Me encantaría escuchar sobre tu idea!",
+        "email": "bricklepicklegs@gmail.com",
+        "availability": {
+            "status": "Disponible",
+            "response_time": "24-48 horas",
+            "location": "Madrid, España",
+            "work_mode": "Remoto / Presencial"
+        },
+        "services": [
+            {
+                "icon": "FaCode",
+                "title": "Desarrollo Web",
+                "description": "Aplicaciones Full-Stack con React y Node.js"
+            },
+            {
+                "icon": "FaGamepad",
+                "title": "Game Development",
+                "description": "Videojuegos con Unity y C#"
+            },
+            {
+                "icon": "FaMicrochip",
+                "title": "IoT & Hardware",
+                "description": "Proyectos con Arduino y Raspberry Pi"
+            },
+            {
+                "icon": "FaRocket",
+                "title": "Consultoría Tech",
+                "description": "Asesoramiento técnico y arquitectura"
+            }
+        ],
+        "contact_methods": [
+            {
+                "type": "email",
+                "label": "Email Principal",
+                "value": "bricklepicklegs@gmail.com",
+                "icon": "FaEnvelope",
+                "primary": true
+            },
+            {
+                "type": "github",
+                "label": "GitHub",
+                "value": "https://github.com/Brickle-Pickle",
+                "icon": "FaGithub",
+                "primary": false
+            },
+            {
+                "type": "portfolio",
+                "label": "KeyPress Games",
+                "value": "https://keypressgamesv1.vercel.app",
+                "icon": "FaExternalLinkAlt",
+                "primary": false
+            }
+        ],
+        "cta": {
+            "primary": "Enviar Email",
+            "secondary": "Copiar Email",
+            "close": "Cerrar"
+        },
+        "messages": {
+            "email_copied": "¡Email copiado al portapapeles!",
+            "email_error": "Error al copiar email",
+            "opening_email": "Abriendo cliente de email..."
+        }
+    }
+}

@@ -81,6 +81,46 @@
         --clr-learning-duration-bg: #f8fafc;
         --clr-learning-overlay: rgba(32, 45, 101, 0.9);
         --clr-learning-tip-gradient: linear-gradient(135deg, #202d65, #4b3d87);
+        
+        /* Code Field specific colors */
+        --clr-code-bg: #0d1117;
+        --clr-code-surface: #161b22;
+        --clr-code-border: #30363d;
+        --clr-code-text: #e6edf3;
+        --clr-code-comment: #7d8590;
+        --clr-code-keyword: #ff7b72;
+        --clr-code-string: #a5d6ff;
+        --clr-code-number: #79c0ff;
+        --clr-code-function: #d2a8ff;
+        --clr-code-class: #ffa657;
+        --clr-code-variable: #ffa198;
+        --clr-code-operator: #ff7b72;
+        --clr-code-punctuation: #e6edf3;
+        --clr-code-decorator: #d2a8ff;
+        --clr-code-builtin: #79c0ff;
+        --clr-code-line-bg: rgba(255, 255, 255, 0.03);
+        --clr-code-line-active: rgba(255, 123, 114, 0.1);
+        --clr-code-cursor: #ff7b72;
+        --clr-code-toolbar: rgba(22, 27, 34, 0.8);
+        --clr-code-button: rgba(48, 54, 61, 0.8);
+        --clr-code-button-hover: rgba(255, 123, 114, 0.2);
+        --clr-code-shadow: 0 16px 32px rgba(1, 4, 9, 0.85);
+
+        /* Contact Modal specific colors - Updated */
+        --clr-contact-overlay: rgba(32, 45, 101, 0.85);
+        --contact-backdrop-filter: blur(15px);
+        --clr-contact-modal-bg: rgba(255, 255, 255, 0.95);
+        --clr-contact-border: rgba(32, 45, 101, 0.2);
+        --clr-contact-shadow: 0 20px 40px rgba(32, 45, 101, 0.3);
+        --clr-contact-close-bg: rgba(248, 250, 252, 0.9);
+        --clr-contact-close-hover: #ef4444;
+        --clr-contact-avatar-bg: rgba(255, 255, 255, 0.9);
+        --clr-contact-avatar-glow: rgba(32, 45, 101, 0.15);
+        --clr-contact-availability-bg: rgba(248, 250, 252, 0.8);
+        --clr-contact-service-bg: rgba(255, 255, 255, 0.7);
+        --clr-contact-service-hover: rgba(32, 45, 101, 0.08);
+        --clr-contact-email-bg: rgba(248, 250, 252, 0.8);
+        --clr-contact-secondary-bg: rgba(255, 255, 255, 0.7);
     }
 }
 
@@ -106,7 +146,7 @@
         --text-shadow-glow: 0 0 10px rgba(164, 186, 230, 0.3);
         
         /* Quick Stats specific colors */
-        /* En el :root de @media (prefers-color-scheme: light) */
+        /* En @media (prefers-color-scheme: light) */
         --clr-games-icon-bg: #f8fafc;
         --clr-games-gradient: linear-gradient(135deg, #202d65, #4b3d87, #8b5cf6);
         --clr-games-pattern: radial-gradient(circle at 20% 20%, #202d65 1px, transparent 1px),
@@ -114,7 +154,7 @@
         --clr-games-shadow: 0 20px 40px rgba(32, 45, 101, 0.15);
         --clr-games-detail-bg: #f8fafc;
         
-        /* En el :root de @media (prefers-color-scheme: dark) */
+        /* En @media (prefers-color-scheme: dark) */
         --clr-games-icon-bg: #1a202c;
         --clr-games-gradient: linear-gradient(135deg, #a4bae6, #90cced, #a78bfa);
         --clr-games-pattern: radial-gradient(circle at 20% 20%, #a4bae6 1px, transparent 1px),
@@ -150,6 +190,45 @@
         --clr-game-preview-tab-hover: rgba(164, 186, 230, 0.1);
         --clr-game-preview-stat-bg: #2d3748;
         --clr-game-preview-shadow: 0 20px 40px rgba(164, 186, 230, 0.1);
+
+        --clr-code-bg: #0d1117;
+        --clr-code-surface: #161b22;
+        --clr-code-border: #30363d;
+        --clr-code-text: #e6edf3;
+        --clr-code-comment: #7d8590;
+        --clr-code-keyword: #ff7b72;
+        --clr-code-string: #a5d6ff;
+        --clr-code-number: #79c0ff;
+        --clr-code-function: #d2a8ff;
+        --clr-code-class: #ffa657;
+        --clr-code-variable: #ffa198;
+        --clr-code-operator: #ff7b72;
+        --clr-code-punctuation: #e6edf3;
+        --clr-code-decorator: #d2a8ff;
+        --clr-code-builtin: #79c0ff;
+        --clr-code-line-bg: rgba(255, 255, 255, 0.03);
+        --clr-code-line-active: rgba(164, 186, 230, 0.1);
+        --clr-code-cursor: #a4bae6;
+        --clr-code-toolbar: rgba(22, 27, 34, 0.9);
+        --clr-code-button: rgba(48, 54, 61, 0.8);
+        --clr-code-button-hover: rgba(164, 186, 230, 0.2);
+        --clr-code-shadow: 0 16px 32px rgba(1, 4, 9, 0.85);
+
+        /* Contact Modal specific colors - Updated */
+        --clr-contact-overlay: rgba(164, 186, 230, 0.25);
+        --contact-backdrop-filter: blur(20px);
+        --clr-contact-modal-bg: rgba(45, 55, 72, 0.95);
+        --clr-contact-border: rgba(164, 186, 230, 0.2);
+        --clr-contact-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+        --clr-contact-close-bg: rgba(26, 32, 44, 0.9);
+        --clr-contact-close-hover: #e53e3e;
+        --clr-contact-avatar-bg: rgba(45, 55, 72, 0.9);
+        --clr-contact-avatar-glow: rgba(164, 186, 230, 0.15);
+        --clr-contact-availability-bg: rgba(26, 32, 44, 0.8);
+        --clr-contact-service-bg: rgba(55, 65, 81, 0.7);
+        --clr-contact-service-hover: rgba(164, 186, 230, 0.1);
+        --clr-contact-email-bg: rgba(26, 32, 44, 0.8);
+        --clr-contact-secondary-bg: rgba(55, 65, 81, 0.7);
     }
 }
 
@@ -157,9 +236,14 @@
     .not-responsive {
         display: none !important;
     }
+    
+    .web {
+        padding-top: 5rem;
+    }
 }
 
 body {
+    position: relative;
     margin: 0;
     padding: 0;
 }
@@ -229,4 +313,96 @@ body {
 .custom-scroll::-webkit-scrollbar-thumb:hover {
     background: var(--clr-primary-light);
     transform: scale(1.1);
+}
+
+/* En @media (prefers-color-scheme: light) */
+:root {
+    /* Contact Modal specific colors */
+    --clr-contact-overlay: rgba(0, 0, 0, 0.8);
+    --contact-backdrop-filter: blur(10px);
+    --clr-contact-modal-bg: #ffffff;
+    --clr-contact-border: #e5e7eb;
+    --clr-contact-shadow: 0 25px 50px rgba(0, 0, 0, 0.15);
+    --clr-contact-close-bg: #f8fafc;
+    --clr-contact-close-hover: #ef4444;
+    --clr-contact-avatar-bg: #ffffff;
+    --clr-contact-avatar-glow: rgba(32, 45, 101, 0.2);
+    --clr-contact-availability-bg: #f8fafc;
+    --clr-contact-service-bg: #ffffff;
+    --clr-contact-service-hover: rgba(32, 45, 101, 0.05);
+    --clr-contact-email-bg: #f8fafc;
+    --clr-contact-secondary-bg: #ffffff;
+}
+
+/* En @media (prefers-color-scheme: dark) */
+:root {
+    /* Contact Modal specific colors */
+    --clr-contact-overlay: rgba(0, 0, 0, 0.9);
+    --contact-backdrop-filter: blur(15px);
+    --clr-contact-modal-bg: #2d3748;
+    --clr-contact-border: #4a5568;
+    --clr-contact-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+    --clr-contact-close-bg: #1a202c;
+    --clr-contact-close-hover: #e53e3e;
+    --clr-contact-avatar-bg: #2d3748;
+    --clr-contact-avatar-glow: rgba(164, 186, 230, 0.2);
+    --clr-contact-availability-bg: #1a202c;
+    --clr-contact-service-bg: #374151;
+    --clr-contact-service-hover: rgba(164, 186, 230, 0.1);
+    --clr-contact-email-bg: #1a202c;
+    --clr-contact-secondary-bg: #374151;
+}
+
+/* Animaciones para el componente de contacto */
+@keyframes contactPulse {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.6;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.1);
+        opacity: 0.8;
+    }
+}
+
+@keyframes contactBlink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+}
+
+@keyframes contactFloat1 {
+    0%, 100% {
+        transform: translateY(0px) translateX(0px);
+    }
+    33% {
+        transform: translateY(-10px) translateX(5px);
+    }
+    66% {
+        transform: translateY(5px) translateX(-3px);
+    }
+}
+
+@keyframes contactFloat2 {
+    0%, 100% {
+        transform: translateY(0px) translateX(0px);
+    }
+    50% {
+        transform: translateY(-15px) translateX(-8px);
+    }
+}
+
+@keyframes contactFloat3 {
+    0%, 100% {
+        transform: translateY(0px) translateX(0px);
+    }
+    25% {
+        transform: translateY(-8px) translateX(3px);
+    }
+    75% {
+        transform: translateY(8px) translateX(-5px);
+    }
 }

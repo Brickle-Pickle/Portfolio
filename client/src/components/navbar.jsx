@@ -6,7 +6,7 @@ import navbarData from '../assets/text_content/navbar.json';
 import './styles/navbar.css';
 
 const Navbar = () => {
-    const { navigate } = useAppContext();
+    const { navigate, setShowContact } = useAppContext();
     const location = useLocation();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
@@ -41,10 +41,7 @@ const Navbar = () => {
 
     const handleContact = () => {
         // Scroll to contact section or open contact modal
-        const contactSection = document.getElementById('contact');
-        if (contactSection) {
-            contactSection.scrollIntoView({ behavior: 'smooth' });
-        }
+        setShowContact(true);
         setIsMenuOpen(false);
     };
 
