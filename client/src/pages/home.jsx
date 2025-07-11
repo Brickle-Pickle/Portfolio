@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useAppContext } from '../context/app_context';
 import Hero from '../components/hero';
 import Counter from '../components/counter';
@@ -7,6 +7,10 @@ import FeaturedProjects from '../components/featured_projects';
 import DownloadCV from '../components/download_cv';
 
 const Home = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <Hero />

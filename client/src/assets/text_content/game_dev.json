@@ -92,5 +92,186 @@
             "fullscreen": "Pantalla Completa",
             "restart": "Reiniciar Juego"
         }
+    },
+    "learning_resources": {
+        "title": "Recursos de Aprendizaje",
+        "subtitle": "Mi camino hacia el desarrollo de videojuegos",
+        "description": "Estos son los recursos que me ayudaron a convertirme en desarrollador de videojuegos. YouTube y las Game Jams fueron fundamentales en mi aprendizaje.",
+        "categories": [
+            {
+                "id": "unity-basics",
+                "title": "Unity Fundamentals",
+                "icon": "FaCube",
+                "color": "#FF6B35",
+                "description": "Aprende los conceptos básicos de Unity desde cero",
+                "resources": [
+                    {
+                        "title": "Unity Learn - Beginner Scripting",
+                        "type": "Curso Oficial",
+                        "url": "https://learn.unity.com/course/beginner-scripting",
+                        "description": "Curso oficial de Unity para aprender scripting desde cero",
+                        "difficulty": "Principiante",
+                        "duration": "8 horas",
+                        "featured": true
+                    },
+                    {
+                        "title": "Brackeys - Unity Basics",
+                        "type": "YouTube",
+                        "url": "https://www.youtube.com/c/Brackeys",
+                        "description": "El mejor canal para empezar con Unity (mi favorito personal)",
+                        "difficulty": "Principiante",
+                        "duration": "Variable",
+                        "featured": true
+                    },
+                    {
+                        "title": "Code Monkey - Unity Tutorials",
+                        "type": "YouTube",
+                        "url": "https://www.youtube.com/c/CodeMonkeyUnity",
+                        "description": "Tutoriales avanzados y técnicas profesionales",
+                        "difficulty": "Intermedio",
+                        "duration": "Variable",
+                        "featured": false
+                    }
+                ]
+            },
+            {
+                "id": "csharp-programming",
+                "title": "Programación en C#",
+                "icon": "FaCode",
+                "color": "#239B56",
+                "description": "Domina C# para desarrollo de videojuegos",
+                "resources": [
+                    {
+                        "title": "Microsoft C# Documentation",
+                        "type": "Documentación",
+                        "url": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+                        "description": "Documentación oficial completa de C#",
+                        "difficulty": "Todos los niveles",
+                        "duration": "Referencia",
+                        "featured": true
+                    },
+                    {
+                        "title": "Tim Corey - C# Mastery",
+                        "type": "YouTube",
+                        "url": "https://www.youtube.com/user/IAmTimCorey",
+                        "description": "Curso completo de C# desde básico hasta avanzado",
+                        "difficulty": "Intermedio",
+                        "duration": "50+ horas",
+                        "featured": true
+                    },
+                    {
+                        "title": "C# Programming Yellow Book",
+                        "type": "Libro Gratuito",
+                        "url": "https://www.robmiles.com/c-yellow-book/",
+                        "description": "Libro gratuito perfecto para principiantes",
+                        "difficulty": "Principiante",
+                        "duration": "200 páginas",
+                        "featured": false
+                    }
+                ]
+            },
+            {
+                "id": "game-jams",
+                "title": "Game Jams",
+                "icon": "FaTrophy",
+                "color": "#8E44AD",
+                "description": "Participa en Game Jams para mejorar tus habilidades",
+                "resources": [
+                    {
+                        "title": "Ludum Dare",
+                        "type": "Game Jam",
+                        "url": "https://ldjam.com/",
+                        "description": "La Game Jam más famosa del mundo (donde participé)",
+                        "difficulty": "Todos los niveles",
+                        "duration": "48-72 horas",
+                        "featured": true
+                    },
+                    {
+                        "title": "Global Game Jam",
+                        "type": "Game Jam",
+                        "url": "https://globalgamejam.org/",
+                        "description": "Evento mundial anual de desarrollo de juegos",
+                        "difficulty": "Todos los niveles",
+                        "duration": "48 horas",
+                        "featured": true
+                    },
+                    {
+                        "title": "itch.io Game Jams",
+                        "type": "Plataforma",
+                        "url": "https://itch.io/jams",
+                        "description": "Encuentra Game Jams semanales y mensuales",
+                        "difficulty": "Variable",
+                        "duration": "Variable",
+                        "featured": false
+                    }
+                ]
+            },
+            {
+                "id": "advanced-topics",
+                "title": "Temas Avanzados",
+                "icon": "FaRocket",
+                "color": "#E74C3C",
+                "description": "Lleva tus juegos al siguiente nivel",
+                "resources": [
+                    {
+                        "title": "Unity Shader Graph",
+                        "type": "Tutorial",
+                        "url": "https://unity.com/shader-graph",
+                        "description": "Crea efectos visuales impresionantes",
+                        "difficulty": "Avanzado",
+                        "duration": "10+ horas",
+                        "featured": true
+                    },
+                    {
+                        "title": "Game Design Patterns",
+                        "type": "Libro Web",
+                        "url": "https://gameprogrammingpatterns.com/",
+                        "description": "Patrones de diseño específicos para videojuegos",
+                        "difficulty": "Avanzado",
+                        "duration": "Referencia",
+                        "featured": true
+                    },
+                    {
+                        "title": "Unity Optimization",
+                        "type": "Documentación",
+                        "url": "https://docs.unity3d.com/Manual/BestPractice.html",
+                        "description": "Mejores prácticas para optimizar tus juegos",
+                        "difficulty": "Intermedio",
+                        "duration": "Referencia",
+                        "featured": false
+                    }
+                ]
+            }
+        ],
+        "personal_experience": {
+            "title": "Mi Experiencia Personal",
+            "description": "Después de 5 años desarrollando videojuegos, estos son los consejos más importantes:",
+            "tips": [
+                {
+                    "icon": "FaYoutube",
+                    "title": "YouTube es tu mejor amigo",
+                    "description": "El 80% de lo que sé lo aprendí viendo tutoriales en YouTube. Brackeys cambió mi vida."
+                },
+                {
+                    "icon": "FaUsers",
+                    "title": "Participa en Game Jams",
+                    "description": "Las Game Jams te enseñan a terminar proyectos y trabajar bajo presión. Son adictivas."
+                },
+                {
+                    "icon": "FaCode",
+                    "title": "Practica todos los días",
+                    "description": "Aunque sean 30 minutos. La consistencia es más importante que las sesiones largas."
+                },
+                {
+                    "icon": "FaHeart",
+                    "title": "Haz juegos que te gusten",
+                    "description": "La pasión se nota. Mis mejores juegos nacieron de ideas que me emocionaban."
+                }
+            ]
+        },
+        "cta": {
+            "primary": "Explorar Recursos",
+            "secondary": "Ver mis Game Jams"
+        }
     }
 }

@@ -305,15 +305,62 @@
 
 .tech-level {
     display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.level-badge {
+    display: flex;
+    align-items: center;
+}
+
+.level-text {
+    font-family: var(--ff-primary);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: 1px solid;
+}
+
+/* Level-specific colors */
+.level-text.básico {
+    background: rgba(156, 163, 175, 0.1);
+    color: #9CA3AF;
+    border-color: #9CA3AF;
+}
+
+.level-text.intermedio {
+    background: rgba(251, 191, 36, 0.1);
+    color: #FBBF24;
+    border-color: #FBBF24;
+}
+
+.level-text.avanzado {
+    background: rgba(34, 197, 94, 0.1);
+    color: #22C55E;
+    border-color: #22C55E;
+}
+
+.level-text.experto {
+    background: rgba(168, 85, 247, 0.1);
+    color: #A855F7;
+    border-color: #A855F7;
+}
+
+.level-details {
+    display: flex;
     align-items: center;
     gap: 0.75rem;
 }
 
 .level-bar {
     flex: 1;
-    height: 6px;
+    height: 4px;
     background: var(--clr-border);
-    border-radius: 3px;
+    border-radius: 2px;
     overflow: hidden;
     position: relative;
 }
@@ -321,28 +368,18 @@
 .level-fill {
     height: 100%;
     background: var(--clr-stats-gradient);
-    border-radius: 3px;
+    border-radius: 2px;
     transition: width 1s ease-out 0.5s;
     position: relative;
 }
 
-.level-fill::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 4px;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.8);
-    animation: shimmer 2s infinite;
-}
-
-.level-text {
+.experience-text {
     font-family: var(--ff-mono);
-    font-size: 0.8rem;
-    font-weight: 600;
+    font-size: 0.7rem;
+    font-weight: 500;
     color: var(--clr-text-light);
-    min-width: 35px;
+    min-width: 50px;
+    text-align: right;
 }
 
 /* Interactive Element */

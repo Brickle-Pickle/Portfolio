@@ -144,13 +144,20 @@ const QuickStats = () => {
                                 <div className="tech-info">
                                     <div className="tech-name">{tech.name}</div>
                                     <div className="tech-level">
-                                        <div className="level-bar">
-                                            <div 
-                                                className="level-fill"
-                                                style={{ width: `${tech.level}%` }}
-                                            ></div>
+                                        <div className="level-badge">
+                                            <span className={`level-text ${(tech.level && typeof tech.level === 'string') ? tech.level.toLowerCase() : 'basico'}`}>
+                                                {tech.level || 'Básico'}
+                                            </span>
                                         </div>
-                                        <span className="level-text">{tech.level}%</span>
+                                        <div className="level-details">
+                                            <div className="level-bar">
+                                                <div 
+                                                    className="level-fill"
+                                                    style={{ width: `${tech.levelValue || 50}%` }}
+                                                ></div>
+                                            </div>
+                                            <span className="experience-text">{tech.experience || 'N/A'}</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

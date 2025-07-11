@@ -1,22 +1,3 @@
-## 🎮 GAME DEV (game_dev.jsx)
-4. Playable demos embebidos directamente
-5. Game design documents descargables
-6. Pixel art gallery de assets creados por ti
-7. Sound design showcase con reproductor de audio
-8. Level design timelapse videos
-9. Code snippets de mecánicas interesantes
-10. Game jam participations con resultados
-11. "From idea to game" flowchart interactivo
-12. Player feedback y reviews de tus juegos
-13. Game analytics dashboard (downloads, ratings)
-14. Future projects roadmap
-15. Collaboration opportunities para otros devs
-16. Game dev tools que recomiendas
-17. Learning resources para aspirantes a game devs
-18. Behind the scenes fotos del proceso creativo
-19. Game dev challenges que has superado
-20. "Play my games" section con links directos
-
 ## 🔧 IOT & HARDWARE (iot_hardware.jsx)
 1. Arduino projects gallery con fotos y código
 2. Raspberry Pi setup y proyectos

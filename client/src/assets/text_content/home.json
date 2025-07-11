@@ -33,12 +33,12 @@
                 "icon": "FaCode",
                 "color": "#61dafb",
                 "technologies": [
-                    { "name": "JavaScript", "icon": "SiJavascript", "level": 100 },
-                    { "name": "React", "icon": "SiReact", "level": 100 },
-                    { "name": "HTML5", "icon": "SiHtml5", "level": 100 },
-                    { "name": "CSS3", "icon": "SiCss3", "level": 100 },
-                    { "name": "Tailwind CSS", "icon": "SiTailwindcss", "level": 100 },
-                    { "name": "Vite", "icon": "SiVite", "level": 100 }
+                    { "name": "JavaScript", "icon": "SiJavascript", "level": "Experto", "levelValue": 95, "experience": "5 años" },
+                    { "name": "React", "icon": "SiReact", "level": "Experto", "levelValue": 90, "experience": "3 años" },
+                    { "name": "HTML5", "icon": "SiHtml5", "level": "Experto", "levelValue": 95, "experience": "5 años" },
+                    { "name": "CSS3", "icon": "SiCss3", "level": "Experto", "levelValue": 90, "experience": "5 años" },
+                    { "name": "Tailwind CSS", "icon": "SiTailwindcss", "level": "Avanzado", "levelValue": 85, "experience": "2 años" },
+                    { "name": "Vite", "icon": "SiVite", "level": "Avanzado", "levelValue": 80, "experience": "1 año" }
                 ]
             },
             "backend": {
@@ -46,9 +46,9 @@
                 "icon": "FaServer",
                 "color": "#68d391",
                 "technologies": [
-                    { "name": "Node.js", "icon": "SiNodedotjs", "level": 100 },
-                    { "name": "Express.js", "icon": "SiExpress", "level": 75 },
-                    { "name": "Python", "icon": "SiPython", "level": 75 }
+                    { "name": "Node.js", "icon": "SiNodedotjs", "level": "Avanzado", "levelValue": 85, "experience": "3 años" },
+                    { "name": "Express.js", "icon": "SiExpress", "level": "Avanzado", "levelValue": 80, "experience": "2 años" },
+                    { "name": "Python", "icon": "SiPython", "level": "Intermedio", "levelValue": 70, "experience": "2 años" }
                 ]
             },
             "mobile": {
@@ -56,7 +56,7 @@
                 "icon": "FaMobile",
                 "color": "#a78bfa",
                 "technologies": [
-                    { "name": "Kotlin", "icon": "SiKotlin", "level": 70 }
+                    { "name": "Kotlin", "icon": "SiKotlin", "level": "Intermedio", "levelValue": 65, "experience": "1 año" }
                 ]
             },
             "gamedev": {
@@ -64,10 +64,10 @@
                 "icon": "FaGamepad",
                 "color": "#f687b3",
                 "technologies": [
-                    { "name": "C#", "icon": "TbBrandCSharp", "level": 60 },
-                    { "name": "Unity", "icon": "SiUnity", "level": 80 },
-                    { "name": "Lua", "icon": "SiLua", "level": 40 },
-                    { "name": "C", "icon": "SiC", "level": 100 }
+                    { "name": "C#", "icon": "TbBrandCSharp", "level": "Intermedio", "levelValue": 70, "experience": "2 años" },
+                    { "name": "Unity", "icon": "SiUnity", "level": "Avanzado", "levelValue": 75, "experience": "4 años" },
+                    { "name": "Lua", "icon": "SiLua", "level": "Básico", "levelValue": 45, "experience": "6 meses" },
+                    { "name": "C", "icon": "SiC", "level": "Avanzado", "levelValue": 80, "experience": "3 años" }
                 ]
             },
             "database": {
@@ -75,10 +75,10 @@
                 "icon": "FaDatabase",
                 "color": "#fbb6ce",
                 "technologies": [
-                    { "name": "SQL", "icon": "SiMysql", "level": 100 },
-                    { "name": "MariaDB", "icon": "SiMariadb", "level": 100 },
-                    { "name": "MongoDB", "icon": "SiMongodb", "level": 75 },
-                    { "name": "MySQL", "icon": "SiMysql", "level": 60 }
+                    { "name": "SQL", "icon": "SiMysql", "level": "Avanzado", "levelValue": 85, "experience": "3 años" },
+                    { "name": "MariaDB", "icon": "SiMariadb", "level": "Avanzado", "levelValue": 80, "experience": "2 años" },
+                    { "name": "MongoDB", "icon": "SiMongodb", "level": "Intermedio", "levelValue": 70, "experience": "1 año" },
+                    { "name": "MySQL", "icon": "SiMysql", "level": "Intermedio", "levelValue": 75, "experience": "2 años" }
                 ]
             },
             "iot": {
@@ -86,9 +86,9 @@
                 "icon": "FaMicrochip",
                 "color": "#fed7d7",
                 "technologies": [
-                    { "name": "MicroPython", "icon": "SiMicropython", "level": 75 },
-                    { "name": "Arduino", "icon": "SiArduino", "level": 60 },
-                    { "name": "Raspberry Pi", "icon": "SiRaspberrypi", "level": 60 }
+                    { "name": "MicroPython", "icon": "SiMicropython", "level": "Intermedio", "levelValue": 65, "experience": "1 año" },
+                    { "name": "Arduino", "icon": "SiArduino", "level": "Intermedio", "levelValue": 70, "experience": "2 años" },
+                    { "name": "Raspberry Pi", "icon": "SiRaspberrypi", "level": "Básico", "levelValue": 55, "experience": "1 año" }
                 ]
             },
             "others": {
@@ -96,8 +96,8 @@
                 "icon": "FaTools",
                 "color": "#bee3f8",
                 "technologies": [
-                    { "name": "Java", "icon": "FaJava", "level": 100 },
-                    { "name": "Git", "icon": "SiGit", "level": 100 }
+                    { "name": "Java", "icon": "FaJava", "level": "Avanzado", "levelValue": 85, "experience": "4 años" },
+                    { "name": "Git", "icon": "SiGit", "level": "Experto", "levelValue": 90, "experience": "5 años" }
                 ]
             }
         },
