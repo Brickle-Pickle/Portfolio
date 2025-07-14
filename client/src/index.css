@@ -15,6 +15,24 @@
     --shadow-hover: 0 8px 25px rgba(0, 0, 0, 0.15);
     --shadow-counter: 0 10px 30px rgba(0, 0, 0, 0.1);
     --text-shadow-glow: 0 0 10px rgba(32, 45, 101, 0.3);
+
+    /* Coming Soon specific colors */
+    --clr-coming-soon-pattern: radial-gradient(circle at 20% 20%, #a4bae6 1px, transparent 1px),
+                                radial-gradient(circle at 80% 80%, #90cced 1px, transparent 1px);
+    --clr-coming-soon-container-bg: rgba(45, 55, 72, 0.9);
+    --coming-soon-backdrop-filter: blur(20px);
+    --clr-coming-soon-border: rgba(164, 186, 230, 0.2);
+    --clr-coming-soon-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    --clr-coming-soon-shadow-glow: 0 25px 50px rgba(164, 186, 230, 0.2);
+    --clr-coming-soon-orb-gradient: linear-gradient(135deg, #a4bae6, #90cced, #a78bfa);
+    --clr-coming-soon-orb-inner: rgba(45, 55, 72, 0.3);
+    --clr-coming-soon-progress-bg: #4b5563;
+    --clr-coming-soon-progress-gradient: linear-gradient(90deg, #a4bae6, #90cced, #a78bfa);
+    --clr-coming-soon-feature-bg: rgba(55, 65, 81, 0.7);
+    --clr-coming-soon-feature-border: rgba(164, 186, 230, 0.1);
+    --clr-coming-soon-feature-shadow: 0 10px 25px rgba(164, 186, 230, 0.15);
+    --clr-coming-soon-button-gradient: linear-gradient(135deg, #a4bae6, #90cced);
+    --clr-coming-soon-button-shadow: 0 10px 25px rgba(164, 186, 230, 0.3);
 }
 
 @media (prefers-color-scheme: light) {

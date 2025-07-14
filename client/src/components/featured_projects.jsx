@@ -57,7 +57,7 @@ const FeaturedProjects = () => {
             setActiveProject((prev) => 
                 (prev + 1) % featured_projects.projects.length
             );
-        }, 5000); // Change every 5 seconds
+        }, 10000); // Change every 10 seconds
 
         return () => clearInterval(interval);
     }, [featured_projects.projects.length]);

@@ -1,0 +1,20 @@
+{
+  "title": "Próximamente",
+  "subtitle": "Estamos trabajando en algo increíble",
+  "description": "Nuestro portafolio está en desarrollo activo. Perdona las molestias mientras creamos una experiencia única para ti.",
+  "features": [
+    "Diseño futurista y moderno",
+    "Experiencia interactiva",
+    "Optimizado para todos los dispositivos",
+    "Tecnologías de vanguardia"
+  ],
+  "cta": "Mientras tanto, explora nuestro trabajo",
+  "progress": {
+    "label": "Progreso del desarrollo",
+    "percentage": 75
+  },
+  "contact": {
+    "message": "¿Tienes alguna pregunta?",
+    "action": "Contáctanos"
+  }
+}

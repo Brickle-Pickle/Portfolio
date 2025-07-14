@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import ComingSoon from '../components/coming_soon';
 
 function IotHardware() {
 
@@ -7,7 +8,7 @@ function IotHardware() {
     }, []);
     
     return (
-        <></>
+        <ComingSoon />
     );
 }   
 

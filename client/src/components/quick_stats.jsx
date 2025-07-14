@@ -53,7 +53,7 @@ const QuickStats = () => {
         const interval = setInterval(() => {
             currentIndex = (currentIndex + 1) % categories.length;
             setActiveCategory(categories[currentIndex]);
-        }, 4000); // Change every 4 seconds
+        }, 8000); // Change every 4 seconds
 
         return () => clearInterval(interval);
     }, [quick_stats.categories]);
