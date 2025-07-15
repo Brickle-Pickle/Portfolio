@@ -7,6 +7,7 @@ import Home from './pages/home';
 import GameDev from './pages/game_dev';
 import IotHardware from './pages/iot_hardware';
 import ContactMe from './components/contact_me';
+import EasterEgg from './components/easter_egg';
 
 function App() {
     const { showContact, setShowContact } = useAppContext();
@@ -27,6 +28,7 @@ function App() {
                     <Route path="/home" element={<Home />} /> {/* Add route for /home */}
                     <Route path="/game-dev" element={<GameDev />} />
                     <Route path="/iot-hardware" element={<IotHardware />} />
+                    <Route path="/more" element={<EasterEgg isVisible={true} onClose={() => setShowSecretEasterEgg(false)}/>} />
                 </Routes>
             </div>
         </>

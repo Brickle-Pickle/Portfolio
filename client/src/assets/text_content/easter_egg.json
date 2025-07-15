@@ -1,0 +1,72 @@
+{
+  "title": "MODO DESARROLLADOR ACTIVADO",
+  "subtitle": "Bienvenido al Laboratorio Secreto",
+  "description": "Has desbloqueado el área restringida del portafolio. Aquí es donde la magia realmente sucede.",
+  "codeInput": {
+    "placeholder": "¿Tienes algún código?",
+    "hint": "",
+    "success": "¡Código correcto! Acceso concedido.",
+    "error": "Código incorrecto. Inténtalo de nuevo."
+  },
+  "features": [
+    {
+      "title": "Análisis de Código",
+      "description": "Explora la arquitectura del portafolio",
+      "icon": "code",
+      "stats": {
+        "lines": "17,847",
+        "components": "23",
+        "hooks": "15"
+      }
+    },
+    {
+      "title": "Métricas de Rendimiento",
+      "description": "Estadísticas en tiempo real",
+      "icon": "chart",
+      "stats": {
+        "loadTime": "1.2s",
+        "bundle": "245KB",
+        "lighthouse": "98/100"
+      }
+    },
+    {
+      "title": "Herramientas de Debug",
+      "description": "Controles avanzados de desarrollo",
+      "icon": "tools",
+      "stats": {
+        "errors": "0",
+        "warnings": "2",
+        "tests": "47/47"
+      }
+    }
+  ],
+  "secretCommands": [
+    {
+      "command": "matrix.activate()",
+      "description": "Activar modo Matrix",
+      "result": "Realidad alterada exitosamente"
+    },
+    {
+      "command": "time.travel(2075)",
+      "description": "Viajar al futuro",
+      "result": "Coordenadas temporales establecidas"
+    },
+    {
+      "command": "universe.debug()",
+      "description": "Debuggear el universo",
+      "result": "42 errores encontrados y corregidos"
+    }
+  ],
+  "achievements": [
+    "🔓 Explorador Digital",
+    "🎯 Cazador de Secretos",
+    "💻 Maestro del Código",
+    "🚀 Pionero Tecnológico",
+    "⚡ Hacker Ético"
+  ],
+  "messages": {
+    "welcome": "Felicidades, has encontrado el easter egg más profundo del portafolio.",
+    "developer": "Este es un espacio especial para desarrolladores curiosos como tú.",
+    "closing": "Recuerda: La curiosidad es el motor de la innovación."
+  }
+}
