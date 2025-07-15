@@ -64,7 +64,7 @@ const Navbar = () => {
                     <div className="navbar-brand" onClick={() => handleNavigation('/home')}>
                         <div className="logo-container">
                             <img 
-                                src="/src/assets/images/BricklePickleLogo_act2025.png" 
+                                src="/1024.png" 
                                 alt="Brickle Pickle Logo" 
                                 className="logo-image"
                             />

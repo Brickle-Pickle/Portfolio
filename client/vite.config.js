@@ -3,13 +3,26 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  // Simple configuration for Unity WebGL
+  base: '/', // Ensure correct base path for production
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false, // Disable sourcemaps for production
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          router: ['react-router-dom'],
+          icons: ['react-icons']
+        }
+      }
+    }
+  },
+  // Unity WebGL configuration only for development
   server: {
-    host: true, // This exposes the server to your network
+    host: true,
     headers: {
-      // Allow PDF files to be embedded
       'Cross-Origin-Resource-Policy': 'cross-origin',
-      // Keep Unity-specific headers but make them less restrictive for development
       'Cross-Origin-Embedder-Policy': 'credentialless',
       'Cross-Origin-Opener-Policy': 'same-origin'
     }

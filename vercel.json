@@ -1,29 +1,35 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "client/package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1"
-    },
-    {
-      "src": "/SnakeLocaust/(.*)",
-      "dest": "/SnakeLocaust/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
   "buildCommand": "cd client && npm run build",
   "outputDirectory": "client/dist",
-  "installCommand": "cd client && npm install"
+  "installCommand": "cd client && npm install",
+  "rewrites": [
+    {
+      "source": "/SnakeLocaust/(.*)",
+      "destination": "/SnakeLocaust/$1"
+    },
+    {
+      "source": "/assets/(.*)",
+      "destination": "/assets/$1"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/SnakeLocaust/(.*)",
+      "headers": [
+        {
+          "key": "Cross-Origin-Embedder-Policy",
+          "value": "require-corp"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy", 
+          "value": "same-origin"
+        }
+      ]
+    }
+  ]
 }
